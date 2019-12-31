@@ -1,0 +1,13 @@
+
+public class EditorDeVideo extends Funcionario{
+
+	public EditorDeVideo () {
+		
+	}
+	
+	public double getBonificacao () {							// sobrescrita - método da classe mãe reescrito
+																// mesma assinatura do 	método da classe mãe
+		return	super.getBonificacao() + 
+				100;											// Reaproveitando o 	método da classe mãe 
+	}
+}

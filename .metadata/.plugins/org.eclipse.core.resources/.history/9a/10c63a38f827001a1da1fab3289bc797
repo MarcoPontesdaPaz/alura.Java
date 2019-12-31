@@ -1,0 +1,17 @@
+
+public class ContaCorrente extends Conta {
+	
+	// Não herda constutores
+	
+	public ContaCorrente (int agencia, 
+			  			  int numero) {
+
+		super(agencia, numero);
+	}
+	
+	@Override
+	public boolean sacar(double valorSaque) {
+
+		return super.sacar(valorSaque + 0.20);
+	}
+}

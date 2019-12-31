@@ -1,0 +1,17 @@
+
+public class TesteSistema {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Gerente g = new Gerente ();
+		g.setSenha(222);
+		
+		Sistema s = new Sistema ();
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class Gerente extends Funcionario {
+	
+	public Gerente () {
+		
+	}
+	
+	public double getBonificacao () {							// sobrescrita - método da classe mãe reescrito
+																// mesma assinatura do 	método da classe mãe
+		System.out.println("Chamando o método de bonificação do Gerente");
+		return	super.getSalario();		
+	}
+
+}

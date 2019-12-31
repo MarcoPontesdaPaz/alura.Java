@@ -1,0 +1,13 @@
+
+public class MinhaExpception extends Exception{
+	
+	private static final long serialVersionUID = -4823L;
+	
+	public MinhaExpception() {
+		super();
+	}
+	
+	public MinhaExpception(String message) {
+		super(message);
+	}	
+}

@@ -1,0 +1,14 @@
+
+public class MyOwnExpception extends Exception{
+	
+	private static final long serialVersionUID = 4823L;
+	
+	
+	public MyOwnExpception() {
+		super();
+	}
+	
+	public MyOwnExpception(String message) {
+		super(message);
+	}	
+}

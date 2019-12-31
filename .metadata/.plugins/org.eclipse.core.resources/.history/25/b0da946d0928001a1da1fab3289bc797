@@ -1,0 +1,12 @@
+
+public abstract interface Autenticavel {
+
+	// Uma interface, é uma classe abstrata com todos os métodos abstrados
+	// -------------------------------------------------------------------
+		
+	public abstract void setSenha (int senha);
+
+	public abstract boolean autentica (int senha) ;
+	
+	
+}

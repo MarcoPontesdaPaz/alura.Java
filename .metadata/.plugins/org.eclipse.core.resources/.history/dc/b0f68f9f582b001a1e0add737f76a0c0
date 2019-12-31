@@ -1,0 +1,11 @@
+
+public class SaldoInsuficienteException extends RuntimeException{
+
+	SaldoInsuficienteException () {
+		super();
+	}
+	
+	SaldoInsuficienteException (String s) {
+		super(s);
+	}	
+}

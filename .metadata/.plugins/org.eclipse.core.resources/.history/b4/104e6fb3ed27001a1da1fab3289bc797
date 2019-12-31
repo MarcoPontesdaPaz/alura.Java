@@ -1,0 +1,11 @@
+
+public class ContaCorrente extends Conta {
+	
+	// Não herda constutores
+	
+	public ContaCorrente (int agencia, 
+			  			  int numero) {
+
+		super(agencia, numero);
+	}
+}

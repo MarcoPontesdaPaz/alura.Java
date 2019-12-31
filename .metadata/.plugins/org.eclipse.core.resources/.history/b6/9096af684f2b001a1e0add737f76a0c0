@@ -1,0 +1,13 @@
+
+public class MinhaException extends RuntimeException{
+	
+	private static final long serialVersionUID = -4823L;
+	
+	public MinhaException() {
+		super();
+	}
+	
+	public MinhaException(String message) {
+		super(message);
+	}	
+}
