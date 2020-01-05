@@ -3,4 +3,9 @@
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="MyOwnExpception"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.SaldoInsuficienteException"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
