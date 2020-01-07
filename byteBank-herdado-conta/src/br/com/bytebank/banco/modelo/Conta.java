@@ -156,4 +156,21 @@ public abstract class Conta {
 		return "Conta :" + this.getNumero() + " - agência : " + this.getAgencia();
 		
 	}
+
+	@Override
+	public boolean equals(Object conta) {
+
+		if (this.agencia 		!= ((Conta) conta).getAgencia()) {
+			return false;
+		} else if (this.numero 	!= ((Conta) conta).getNumero()) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+
+//	public boolean ehIgual(ContaCorrente cc2) {
+//		// TODO Auto-generated method stub
+//		return false;
+//	}
 }
