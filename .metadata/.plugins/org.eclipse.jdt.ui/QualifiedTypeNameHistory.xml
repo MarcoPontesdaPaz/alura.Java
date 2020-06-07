@@ -8,4 +8,10 @@
 <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
 <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.nio.charset.Charset"/>
+<fullyQualifiedTypeName name="java.nio.charset.StandardCharsets"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
 </qualifiedTypeNameHistroy>

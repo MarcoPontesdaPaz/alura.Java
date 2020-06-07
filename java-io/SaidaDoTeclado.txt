@@ -1,0 +1,2 @@
+LerDoTeclado, novamente.
+agora a saída é quando a linha not isEmpty
